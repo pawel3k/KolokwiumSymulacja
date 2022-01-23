@@ -43,8 +43,8 @@ public class KolokwiumSymulacja extends JFrame implements ActionListener {
 		
 		label_pusty = new JLabel();
 		label_podpis_odsetek = new JLabel("Odsetek wylosowanych jedynek:");
-		label_podpis_rzuty = new JLabel("Wprowadz liczbê rzutów");
-		label_podpis_sciany_kostki = new JLabel("Wprowadz liczbê œcian kostki");
+		label_podpis_rzuty = new JLabel("Wprowadz liczbÃª rzutÃ³w");
+		label_podpis_sciany_kostki = new JLabel("Wprowadz liczbÃª Å“cian kostki");
 		label_pusty_2 = new JLabel();
 		
 		this.add(label_podpis_rzuty);
@@ -92,7 +92,7 @@ public class KolokwiumSymulacja extends JFrame implements ActionListener {
 		
 		for(int i = 0; i <= liczba_k; i++) {
 			
-			losowaLiczba = 1 + losowy.nextInt((liczba_k - 1)+1);
+			losowaLiczba = 1 + losowy.nextInt(liczba_k+1);
 			
 		}
 		
